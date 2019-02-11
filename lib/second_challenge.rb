@@ -7,10 +7,12 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
+  
   new_array = []
-binding.pry
-  #code your solution here!
-
+  groceries.values.each do |v|
+    new_array << v 
+  end 
+  binding.pry
   
 
 end
